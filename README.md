@@ -1,1 +1,13 @@
 # BT4222-Predicting-Stock-Prices-with-web-information
+
+1.1 Introduction
+Stock market prices and trends are extremely volatile in nature in the finance industry. Numerous models have been devised in order to capture the volatile characteristics of the stock market, with the main goal to forecast or predict market trends. However, the development of a consistently accurate stock forecasting model remains difficult due to the vast number of factors affecting stock prices1. 
+In general, there are two methods for forecasting market trends - technical analysis and fundamental analysis2. Technical analysis consists of past prices and volumes to predict future trends whereas fundamental analysis involves analyzing a company’s financial data and financial news to get some insights. 
+Financial news articles on a particular company typically explain its performance and possibly signal which direction its stock price moves towards. With the proliferation of the internet, the propagation of news has been facilitated. As such, not only do the news carry more weight in affecting stock prices (and movement) since the information is more accessible and available, the advancement of technology also eases the process of data mining for such information3. 
+
+1.2 Project Objectives
+This project augments fundamental analysis techniques to technical analysis by incorporating information from news articles related to our selected companies into more traditional technical analysis such as exponential moving average price (EMA). It integrates both types of analysis to achieve a better prediction while understanding the impact of financial news to market trade directions.
+
+In the fundamental aspect, this project focuses on non-quantifiable data such as financial news and articles about a company to predict future stock trends using different techniques. Sentiment analysis is performed on these news content for selected companies to classify news as positive or negative. Market sentiment is a qualitative measure of investors behaviour and mood, which drives price action and investment opportunities4. The sentiment scores serve as features to traditional models as additional variable(s) in an attempt to improve the model’s predictive powers. As such, textual data gleaned from multiple sources are feature engineered to complement the existing technical indicators in the predictions using regression, classification, and time series.
+
+We hypothesized that news data are likely to have varying impacts on different industries. In particular, we believe that the technology industry should be more sensitive to news articles as it is a booming industry as compared to the more mature consumer industry.
